@@ -1,5 +1,3 @@
-console.log("Empezando con mi pokeapi")
-
 document.addEventListener('DOMContentLoaded', () => {
     const random = getRandomInit(1, 501)
     fetchData(random)
